@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.20;
+pragma solidity ^0.8.33;
 
 contract onChainLottery {
     // --- Data structures ---
@@ -13,7 +13,7 @@ contract onChainLottery {
         uint256 playerCount;   // Number of players in the round
         uint256 timestamp;     // When the round was finalized
     }
-
+    
     // --- State variables ---
 
     address public manager;              // Contract admin / lottery manager
